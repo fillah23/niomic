@@ -1,0 +1,51 @@
+.container{
+  width:800px;
+  margin: 0 auto;
+}
+.satu,.dua,.tiga{
+  border:solid;
+  width:200px;
+  height:200px;
+  background-color:green;
+  float:left;
+  margin-left: 50px;
+  border-image-source: url(border1.png);
+  border-image-width:30%;
+  border-image-slice:33%;
+}
+.satu{
+  border-image-repeat:stretch;
+  border-image-outset:30px;
+}
+.dua{
+  border-image-repeat:round;
+}
+.tiga{
+  border-image-repeat:repeat
+}
+.Border_Image_Dari_Gradient{
+  border:solid;
+  width:200px;
+  height:200px;
+  background-color:red;
+  float:left;
+  margin-left: 50px;
+  border-image-repeat: round;
+  border-image-source: repeating-linear-gradient(
+    to bottom right ,blue,white, blue 10px);
+  border-image-width:20px;
+  border-image-slice:10%;
+}
+.berulang{
+  border:solid;
+  width:200px;
+  height:200px;
+  background-color:red;
+  border-image-repeat: round;
+  border-image-source: url(hearts.png);
+  border-image-outset: 20px;
+  border-image-width:20px;
+  border-image-slice:20 22;
+  margin-top: 50px;
+  margin-left: 50px;
+}

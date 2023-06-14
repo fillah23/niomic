@@ -1,0 +1,22 @@
+header{
+  background-color: black;
+
+  margin-bottom: 1%;
+  text-align: left;
+}
+a{
+  color: white;
+  text-decoration: none;
+  text-align-last: left;
+}
+p{
+  column-fill:balance;
+  column-count: 4;
+  column-width: 100px;
+  column-rule: 3px solid black;
+}
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}

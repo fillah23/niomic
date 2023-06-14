@@ -1,0 +1,16 @@
+.div_menu{
+  background-color: black;
+  margin-bottom: 1%;
+
+}
+
+.menu1{
+  text-decoration: none;
+  color:white;
+  text-transform: capitalize;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}

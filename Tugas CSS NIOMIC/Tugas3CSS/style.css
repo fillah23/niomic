@@ -1,0 +1,16 @@
+p{
+  background-color: grey;
+}
+.p1{background-color: orange;}
+.p2{
+  background-color: blue;
+  color: white;
+}
+.p3{
+  border-style: ridge;
+  background-color: white;
+  font-family: arial
+}
+.p4{
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.home{
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.home-content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.collapse li a:hover {
+text-decoration: underline;
+color: black;
+transition: .5s;
+}
